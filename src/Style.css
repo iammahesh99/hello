@@ -1,0 +1,21 @@
+table {
+  width: 50%;
+  table-layout: fixed;
+  overflow: hidden;
+}
+
+.test{
+  width: 50px;
+  height: 100px;
+  flex: initial;
+  position: relative;
+  
+  min-width: 20px;
+  
+  cursor: pointer;
+  transition: background 0.5s ease-out, color 0.5s ease-out;
+}
+
+td:hover{
+  background: #564787;
+}
