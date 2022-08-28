@@ -29,6 +29,7 @@ jobs:
     - name: Get secrets
       env:
        DESTINATION: ${{ secrets.DESTINATION }}
+       name: "hello"
       run: |
-       echo KEY: "$(2+2)"
+       echo KEY: "$name"
 
