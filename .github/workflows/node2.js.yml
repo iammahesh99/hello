@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - name: Get secrets
       env:
-       DESTINATION: ${{ secrets.DESTINATION }}
+       DESTINATION: ${{ secrets.DESTINATIO }}
        name: "hello"
       run: |
        echo KEY: "$DESTINATION"
