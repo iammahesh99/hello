@@ -31,5 +31,5 @@ jobs:
        DESTINATION: ${{ secrets.DESTINATION }}
        name: "hello"
       run: |
-       echo KEY: "$name"
+       echo KEY: "$DESTINATION"
 
