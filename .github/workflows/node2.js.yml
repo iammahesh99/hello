@@ -30,6 +30,6 @@ jobs:
       env:
        DESTINATION: ${{ secrets.DESTINATION }}
       run: |
-       echo KEY: '${DESTINATION}'
+       echo KEY: ${DESTINATION}
     - run: npm ci
     - run: npm run build 
